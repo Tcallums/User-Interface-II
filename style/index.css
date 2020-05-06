@@ -12,11 +12,14 @@
     }
 
 .links{
-    width: 60%;
+    width: 100%;
+    text-align: center;
     display: flex;
     justify-content: center;
     padding-top: 1%;
     border: 1px solid black;
+    
+
 
 }
 
