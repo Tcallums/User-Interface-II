@@ -170,3 +170,9 @@ button {
          background-color: silver;
      }
  }
+@media(max-width: 650px){
+    h1 {
+        color: Purple;
+    }
+}
+ /*iphone view*/
