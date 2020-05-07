@@ -40,6 +40,9 @@ nav a:hover {
 }
 
 /*images section*/
+*{
+    box-sizing:border-box;
+}
 
 #big{
     border: 2px solid black;
@@ -50,7 +53,7 @@ nav a:hover {
 .container{
     display:flex;
     justify-content: space-between;
-    width: 45%;
+    width: 44%;
     height: 20%;
     padding-top: 1%;
     padding-right: 1%;
@@ -60,7 +63,13 @@ nav a:hover {
 
 .info {
     color: red;
-    border: 1px solid black;
+    overflow-wrap:break-word;
+    width: 300px;
+}
+
+.outter {
+border:2px solid black;
+display:inline-block;
 }
 
 /*footer*/
