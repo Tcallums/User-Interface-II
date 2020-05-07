@@ -11,33 +11,33 @@
      padding-top: 10%;
     }
 
+ h2 {
+        text-align: center;
+    }
 .links{
-    width: 100%;
-    text-align: center;
-    display: flex;
+    display:flex;
     padding-top: 1%;
-    border: 1px solid black;
+    
 
 }
 
 header nav {
     display:flex;
     width: 100%;
-    justify-content:space-evenly;
-}
-h2 {
-    text-align: center;
+    justify-content: center;
 }
 
+
 nav a {
-    color: rebeccapurple;
+    color: red;
     text-decoration: none;
     letter-spacing: 3px;
+  background-color:  grey;
+  border:1px solid black;
 }
 nav a:hover {
     color:green;
-}
-
+    
 /*images section*/
 
 #big{
